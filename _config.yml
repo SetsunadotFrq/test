@@ -1,1 +1,10 @@
+title: test site
+description: >
+  This is a test site for Jekyll configuration.
 theme: jekyll-theme-midnight
+#layout settings
+defaults:
+  - scope:
+      path: "" # an empty string here means all files
+    values:
+      layout: default
